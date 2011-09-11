@@ -19,10 +19,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fiftyfifty.gemspec",
     "lib/fiftyfifty.rb",
     "test/helper.rb",
     "test/test_fiftyfifty.rb"
