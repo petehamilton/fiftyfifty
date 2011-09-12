@@ -5,15 +5,16 @@
 
 Gem::Specification.new do |s|
   s.name = "fiftyfifty"
-  s.version = "0.3.0"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Peter Hamilton"]
-  s.date = "2011-09-11"
-  s.description = "TODO: longer description of your gem"
+  s.date = "2011-09-12"
+  s.description = "An API Wrapper for the 5050 Project API"
   s.email = "peter@inspiredpixel.net"
   s.extra_rdoc_files = [
     "LICENSE.txt",
+    "README.md",
     "README.rdoc"
   ]
   s.files = [
@@ -21,6 +22,7 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "README.rdoc",
     "Rakefile",
     "VERSION",
@@ -33,7 +35,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "An API Wrapper for the 5050 Project API"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

@@ -63,12 +63,4 @@ class FiftyFifty
       return response.data
     end
   end
-  
-  def put
-    
-  end
-  
-  def post
-  
-  end
 end
