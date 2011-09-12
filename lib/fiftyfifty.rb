@@ -54,9 +54,11 @@ class FiftyFifty
   def campaigner_details(campaigner_id)
     return get("/campaigners/#{campaigner_id}")
   end
+  
+  # Get's response for a URL request. If the status is 400, raise a BadRequest
+  # exception, otherwise, return the associated data
   def get(url)
     response = Hashie::Mash.new(self.class.get(url))
-
     if response.status == 400
       raise BadRequest
     else
