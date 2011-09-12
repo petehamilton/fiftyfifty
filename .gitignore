@@ -49,3 +49,6 @@ pkg
 
 #RVM gemset
 .rvmrc
+
+#Built gems
+*.gem
